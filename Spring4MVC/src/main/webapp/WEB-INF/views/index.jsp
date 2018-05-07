@@ -43,13 +43,13 @@
                      <div class="row">
                           <div class="form-group col-md-12">
                               <div class="col-md-4">
-                                  <input type="text" placeholder="Enter Destination" id="destinationName" name="destinationName" class="form-control input-sm""/>                                                                    
+                                  <input type="text" placeholder="Enter Destination" id="destinationName" name="destinationName" class="form-control input-sm" value="${offerFilterRequset.destinationName}" />                                                                    
                               </div>
                               <div class="col-md-4">
-                                 <input type="text" placeholder="Select Min Trip Start Date" id="minTripStartDate" name="minTripStartDate" class="form-control input-sm"/>                                 
+                                 <input type="text" placeholder="Select Min Trip Start Date" id="minTripStartDate" name="minTripStartDate" class="form-control input-sm" value="${offerFilterRequset.minTripStartDate}"/>                                 
                               </div>
                               <div class="col-md-4">
-                                 <input type="text" placeholder="Select Max Trip Start Date" id="maxTripStartDate" name="maxTripStartDate" class="form-control input-sm"/>                                 
+                                 <input type="text" placeholder="Select Max Trip Start Date" id="maxTripStartDate" name="maxTripStartDate" class="form-control input-sm" value="${offerFilterRequset.maxTripStartDate}"/>                                 
                               </div>
                           </div>
                       </div>
@@ -57,10 +57,10 @@
                      <div class="row">
                           <div class="form-group col-md-12">
                               <div class="col-md-4">
-                                <input type="text" placeholder="Enter Length Of Stay" id="lengthOfStay" name="lengthOfStay" class="form-control input-sm"/>
+                                <input type="text" placeholder="Enter Length Of Stay" id="lengthOfStay" name="lengthOfStay" class="form-control input-sm" value="${offerFilterRequset.lengthOfStay}"/>
                               </div>
                               <div class="col-md-4">
-                                 <select id="minStarRating" name="minStarRating" class="form-control input-sm">
+                                 <select id="minStarRating" name="minStarRating" class="form-control input-sm" >
                                     <option value="0">Select Min Star Rating</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
@@ -70,7 +70,7 @@
                                 </select>                                 
                               </div>
                               <div class="col-md-4">
-                                 <select id="maxStarRating" name="maxStarRating" class="form-control input-sm">
+                                 <select id="maxStarRating" name="maxStarRating" class="form-control input-sm"  >
                                     <option value="0">Select Max Star Rating</option>
                                     <option value="1">1</option>
                                     <option value="2">2</option>
