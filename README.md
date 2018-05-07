@@ -19,3 +19,8 @@ Download or clone project from 'https://github.com/ihabalnaqib/Expedia'
 
 Lunch demo web application throught herokuapp.
 'https://expedia-ihab-test.herokuapp.com/'
+
+
+Issues : 
+
+- Fill search filter after getting response from server side
